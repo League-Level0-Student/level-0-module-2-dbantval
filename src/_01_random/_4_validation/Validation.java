@@ -1,3 +1,5 @@
+
+
 //    Copyright (c) The League of Amazing Programmers 2013-2019
 //    Level 0
 
@@ -15,9 +17,27 @@ public class Validation {
 		int randomNumber = randomMaker.nextInt(5);
 		
 		System.out.println(randomNumber);
+		if (randomNumber==1) {
+			JOptionPane.showMessageDialog(null, "you are kind");
+		}
 
 		// 1. Use each value of randomNumber to give the user a random compliment.
-
+		if (randomNumber==2) {
+			JOptionPane.showMessageDialog(null, "BAdger Badger");
+			
+		}
+		if (randomNumber==3) {
+			JOptionPane.showMessageDialog(null, "Nice job on everything!");
+		}
+		if (randomNumber==4) {
+			JOptionPane.showMessageDialog(null, "you are so cool!");
+		}
+		if (randomNumber==0
+				
+				) {
+			JOptionPane.showMessageDialog(null, "Badger baUDgEr");
+		}
+		
 		// 2. Repeat all the code above 10 times
 		
 		// 3. Find someone to test out your program. They will like it :)
